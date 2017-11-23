@@ -1,4 +1,7 @@
 # shiny-R
+
+<img width="1280" alt="2017-11-24 3 02 13" src="https://user-images.githubusercontent.com/33029403/33185215-6e9c65ca-d0c4-11e7-9d78-ee730136cfa0.png">
+
 ## [*] Welcome to Shiny
 
 > install.packages("shiny")
