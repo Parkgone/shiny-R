@@ -1,7 +1,9 @@
 # [*] Welcome to Shiny
 
 > install.packages("shiny")
+
 > library(shiny)
+
 > runExample("01_hello")
 
 # [*] Lesson 1: 01_hello - histogram
