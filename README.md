@@ -13,11 +13,11 @@ Structure of a Shiny App
 
   (+) app.R has three components:
   
-    (1) a user interface object
+   (1) a user interface object
     
-    (2) a server function
+   (2) a server function
     
-    (3) a call to the shinyApp function
+   (3) a call to the shinyApp function
 
 > runApp("term")
 
@@ -27,11 +27,11 @@ Build a sophisticated app that visualizes US Census data.
 
   (+) Data : countries.rds(https://shiny.rstudio.com/tutorial/written-tutorial/lesson5/census-app/data/counties.rds)
   
-    - the name of each country in the United States
+   - the name of each country in the United States
     
-    - the total population of the country
+   - the total population of the country
     
-    - the percent of residents in the country who are White, Black, Hispanic, or Asian
+   - the percent of residents in the country who are White, Black, Hispanic, or Asian
     
 > counties <- readRDS("census-app/counties.rds")
 
@@ -41,9 +41,9 @@ Components of the app
 
   (+) helpers.R
   
-    - A choropleth map is a map that use color to display the regional variation fo a variable.
+   - A choropleth map is a map that use color to display the regional variation fo a variable.
     
-    - Reference : https://shiny.rstudio.com/tutorial/written-tutorial/lesson5/census-app/helpers.R
+   - Reference : https://shiny.rstudio.com/tutorial/written-tutorial/lesson5/census-app/helpers.R
     
   (+) app.R
 
