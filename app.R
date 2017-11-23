@@ -4,7 +4,7 @@ library(maps)
 library(mapproj)
 
 # Load data ----
-counties <- readRDS("data/counties.rds")
+counties <- readRDS("counties.rds")
 
 # Source helper functions -----
 source("helpers.R")
